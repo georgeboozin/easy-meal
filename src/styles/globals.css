@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
 	--kit-font-primary: Avenir, system-ui, sans-serif;
