@@ -1,10 +1,17 @@
 import { useState } from "react";
 import styles from "./Header.module.css";
+import { IconPrimary } from "../Icons/IconPrimary";
+import { IconPrimaryWithout } from "../Icons/IconPrimaryWithout";
+import { Logo } from "../Icons/Logo";
 
 interface Props {}
 
 export const Header = ({}: Props) => {
   const [navbar, setNavbar] = useState(false);
+
+  /// #gba(156, 169, 58, 0.4) #9ca93a66 green
+
+  // #de474666 rgba(222, 71, 70, 0.4) red
 
   return (
     <nav className="w-full bg-white shadow">
@@ -12,7 +19,9 @@ export const Header = ({}: Props) => {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold">LOGO</h2>
+              <h2 className="text-2xl font-bold">
+                <IconPrimary width={64} height={64} />
+              </h2>
             </a>
             <div className="md:hidden">
               <button
@@ -59,16 +68,16 @@ export const Header = ({}: Props) => {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-600 hover:text-blue-600">
+              <li className="text-gray-600 hover:text-gray-900">
                 <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600">
+              <li className="text-gray-600 hover:text-gray-900">
                 <a href="javascript:void(0)">Blog</a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600">
+              <li className="text-gray-600 hover:text-gray-900">
                 <a href="javascript:void(0)">About US</a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600">
+              <li className="text-gray-600 hover:text-gray-900">
                 <a href="javascript:void(0)">Contact US</a>
               </li>
             </ul>
