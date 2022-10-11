@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <div className="rounded-md my-8">
           <a
             href="#twitter"
-            className="w-full flex items-center justify-center px-8 py-3 text-off font-medium rounded-md text-gray-900 border border-gray-900 hover:border-main hover:text-white bg-white hover:bg-main md:py-4 md:text-lg md:px-10"
+            className="w-full flex items-center justify-center px-8 py-3 text-wewak font-medium rounded-md text-gray-900 border border-wewak hover:border-beryl hover:text-white bg-white hover:bg-beryl md:py-4 md:text-lg md:px-10"
           >
             Instagram
           </a>
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <div className="rounded-md my-8">
           <a
             href="#twitter"
-            className="w-full flex items-center justify-center px-8 py-3 text-off font-medium rounded-md text-gray-900 border border-gray-900 hover:border-main hover:text-white bg-white hover:bg-main md:py-4 md:text-lg md:px-10"
+            className="w-full flex items-center justify-center px-8 py-3 text-wewak font-medium rounded-md text-gray-900 border border-wewak hover:border-beryl hover:text-white bg-white hover:bg-beryl md:py-4 md:text-lg md:px-10"
           >
             Facebook
           </a>
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <div className="rounded-md my-8">
           <a
             href="#twitter"
-            className="w-full flex items-center justify-center px-8 py-3 text-off font-medium rounded-md text-gray-900 border border-gray-900 hover:border-main hover:text-white bg-white hover:bg-main md:py-4 md:text-lg md:px-10"
+            className="w-full flex items-center justify-center px-8 py-3 text-wewak font-medium rounded-md text-gray-900 border border-wewak hover:border-beryl hover:text-white bg-white hover:bg-beryl md:py-4 md:text-lg md:px-10"
           >
             Feedback
           </a>

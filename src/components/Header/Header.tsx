@@ -9,10 +9,6 @@ interface Props {}
 export const Header = ({}: Props) => {
   const [navbar, setNavbar] = useState(false);
 
-  /// #gba(156, 169, 58, 0.4) #9ca93a66 green
-
-  // #de474666 rgba(222, 71, 70, 0.4) red
-
   return (
     <nav className="w-full bg-white shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">

@@ -7,8 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        main: "#9ca93a66",
-        off: "#de474666",
+        beryl: "#d7ddb0",
+        berylop: "#9ca93a66",
+        wewak: "#f2b5b5",
+        wewakop: "#de474666",
       },
     },
   },
