@@ -11,7 +11,7 @@ export const Header = ({}: Props) => {
 
   const handleClick = (locale: "en" | "ge" | "ru") => () => {
     push({ pathname, query }, asPath, { locale });
-    setNavbar(!navbar);
+    setNavbar(false);
   };
 
   return (
