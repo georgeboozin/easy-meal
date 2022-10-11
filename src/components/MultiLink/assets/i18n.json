@@ -1,0 +1,59 @@
+{
+  "en": {
+    "links": [
+      {
+        "locale": "en",
+        "title": "Instagram",
+        "href": "https://www.instagram.com/__easymeal__/"
+      },
+      {
+        "locale": "en",
+        "title": "Facebook",
+        "href": "https://www.facebook.com/profile.php?id=100086515950120"
+      },
+      {
+        "locale": "en",
+        "title": "Feedback",
+        "href": "https://www.google.com/forms/about/"
+      }
+    ]
+  },
+  "ru": {
+    "links": [
+      {
+        "locale": "ru",
+        "title": "Instagram",
+        "href": "https://www.instagram.com/__easymeal__/"
+      },
+      {
+        "locale": "ru",
+        "title": "Facebook",
+        "href": "https://www.facebook.com/profile.php?id=100086515950120"
+      },
+      {
+        "locale": "ru",
+        "title": "Оставить отзыв",
+        "href": "https://www.google.com/forms/about/"
+      }
+    ]
+  },
+  "ge": {
+    "links": [
+      {
+        "locale": "ge",
+        "title": "Instagram",
+        "href": "https://www.instagram.com/__easymeal__/"
+      },
+      {
+        "locale": "ge",
+        "title": "Facebook",
+        "href": "https://www.facebook.com/profile.php?id=100086515950120"
+      },
+      {
+        "locale": "ge",
+        "title": "კავშირი",
+        "href": "https://www.google.com/forms/about/"
+      }
+    ]
+  }
+}
