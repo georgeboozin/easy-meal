@@ -7,8 +7,8 @@ import styles from "./MultiLink.module.css";
 interface Props {}
 
 export const MultiLink = ({}: Props) => {
-  const { locale, locales, asPath, pathname, query, push } = useRouter();
-  console.log(locale, locales, asPath);
+  const { locale } = useRouter();
+
   const links = i18n[locale as "en" | "ge" | "ru"].links.map((link) => (
     <div key={link.title} className="rounded-md my-8">
       <a
