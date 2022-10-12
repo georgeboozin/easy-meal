@@ -22,5 +22,5 @@ export const MultiLink = ({}: Props) => {
     </div>
   ));
 
-  return <div className="px-8 py-3">{links}</div>;
+  return <div className="px-8 py-3 lg:max-w-7xl mx-auto">{links}</div>;
 };
