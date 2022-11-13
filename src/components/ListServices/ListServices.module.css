@@ -1,0 +1,34 @@
+.root {
+  background: #000;
+  color: #fff;
+}
+
+.bolt {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-image: url(./assets/bolt.png);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.wolt {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-image: url(./assets/wolt.png);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.glovo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-image: url(./assets/glovo.png);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
