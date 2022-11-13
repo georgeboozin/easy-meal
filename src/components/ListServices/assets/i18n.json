@@ -1,59 +1,14 @@
 {
   "en": {
-    "links": [
-      {
-        "locale": "en",
-        "title": "Instagram",
-        "href": "https://www.instagram.com/__easymeal__/"
-      },
-      {
-        "locale": "en",
-        "title": "Facebook",
-        "href": "https://www.facebook.com/profile.php?id=100086515950120"
-      },
-      {
-        "locale": "en",
-        "title": "Feedback",
-        "href": "https://www.google.com/forms/about/"
-      }
-    ]
+    "title": "You can make the order by following services:",
+    "glovoHelper": "Glovo doesn't support deeplink, use search to find us \"Easy Meal\""
   },
   "ru": {
-    "links": [
-      {
-        "locale": "ru",
-        "title": "Instagram",
-        "href": "https://www.instagram.com/__easymeal__/"
-      },
-      {
-        "locale": "ru",
-        "title": "Facebook",
-        "href": "https://www.facebook.com/profile.php?id=100086515950120"
-      },
-      {
-        "locale": "ru",
-        "title": "Оставить отзыв",
-        "href": "https://www.google.com/forms/about/"
-      }
-    ]
+    "title": "Вы можете заказать через следующие сервисы:",
+    "glovoHelper": "Glovo не поддреживает deeplink, исползуйте поиск что бы найти нас \"Easy Meal\""
   },
   "ge": {
-    "links": [
-      {
-        "locale": "ge",
-        "title": "Instagram",
-        "href": "https://www.instagram.com/__easymeal__/"
-      },
-      {
-        "locale": "ge",
-        "title": "Facebook",
-        "href": "https://www.facebook.com/profile.php?id=100086515950120"
-      },
-      {
-        "locale": "ge",
-        "title": "კავშირი",
-        "href": "https://www.google.com/forms/about/"
-      }
-    ]
+    "title": "შეგიძლიათ შეუკვეთოთ შემდეგი სერვისების საშუალებით:",
+    "glovoHelper": "Glovo არ აქვს ღრმა ბმულის მხარდაჭერა, გამოიყენეთ ძებნა ჩვენს საპოვნელად \"Easy Meal\""
   }
 }
