@@ -2,8 +2,14 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Header } from "components/HeaderWithLocale";
 import { MultiLink } from "components/MultiLink";
+import { useEffect } from "react";
+import { gtmVirtualPageView } from "../services/analytics";
 
 const MultiLinkPage: NextPage = () => {
+  useEffect(() => {
+    gtmVirtualPageView({ page: "multilink" });
+  }, []);
+
   return (
     <>
       <Head>
