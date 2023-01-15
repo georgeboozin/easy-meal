@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Header } from "components/HeaderWithLocale";
 import { ListServices } from "components/ListServices";
+import { Footer } from "components/Footer";
 import { useEffect } from "react";
 import { gtmVirtualPageView } from "../services/analytics";
 
@@ -22,6 +23,7 @@ const OrderPage: NextPage = () => {
       </Head>
       <Header />
       <ListServices />
+      <Footer />
     </>
   );
 };
