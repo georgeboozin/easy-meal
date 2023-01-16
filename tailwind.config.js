@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/features/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -11,6 +12,9 @@ module.exports = {
         berylop: "#9ca93a66",
         wewak: "#f2b5b5",
         wewakop: "#de474666",
+      },
+      fontFamily: {
+        lato: ["Lato", "sans-serif"],
       },
     },
   },
