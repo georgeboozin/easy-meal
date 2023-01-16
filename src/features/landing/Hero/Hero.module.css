@@ -1,19 +1,18 @@
 .root {
   height: 400px;
-  /* font-family: 'Lato'; */
 }
 
 .tagline {
   flex-shrink: 0;
-  width: 40%;
-  background-color: rgba(156,169,58,0.4);
+  width: 100%;
+  background: linear-gradient(to right, rgba(156,169,58,0.4) 70%, rgba(222,71,70,0.4) 20px); 
   display: flex;
   align-items: center;
 }
 
 .tagline > div {
   margin-top: -100px;
-  margin-left: 32px;
+  margin-left: 16px;
 }
 
 .photo {
@@ -22,7 +21,7 @@
 }
 
 .photo {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -33,4 +32,26 @@
   max-width: 300px; 
   max-height: 300px;
 
+}
+
+
+@media only screen and (min-width: 768px) {
+  .tagline {
+    width: 50%;
+    background: rgba(156,169,58,0.4);
+  }
+  
+  .tagline > div {
+    margin-left: 32px;
+  }
+  
+  .photo {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tagline {
+    width: 40%;
+  }
 }

@@ -8,13 +8,13 @@ export const Hero = ({}: Props) => {
       <div className={s.tagline}>
         <div>
           <div className="text-5xl text-white font-bold">Easy solution</div>
-          <div className="text-4xl text-white font-bold">
+          <div className="text-3xl md:text-4xl text-white font-bold">
             for lunches and snacks
           </div>
         </div>
       </div>
-      <div className={s.photo}>
-        <img src="/main-dish.png" alt="ladning" />
+      <div className={`${s.photo}`}>
+        <img src="/main-dish.png" loading="lazy" alt="ladning" />
       </div>
     </div>
   );

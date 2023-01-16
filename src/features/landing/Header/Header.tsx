@@ -19,7 +19,7 @@ export const Header = ({}: Props) => {
             </a>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -64,17 +64,20 @@ export const Header = ({}: Props) => {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-600 hover:text-gray-900">
-                <a href="javascript:void(0)">Home</a>
+              <li className="hover:text-gray-600">
+                <a href="#menu" onClick={() => setNavbar(false)}>
+                  Menu
+                </a>
               </li>
-              <li className="text-gray-600 hover:text-gray-900">
-                <a href="#instagram">Instagram</a>
+              <li className="hover:text-gray-600">
+                <a href="#instagram" onClick={() => setNavbar(false)}>
+                  Contact US
+                </a>
               </li>
-              <li className="text-gray-600 hover:text-gray-900">
-                <a href="javascript:void(0)">About US</a>
-              </li>
-              <li className="text-gray-600 hover:text-gray-900">
-                <a href="javascript:void(0)">Contact US</a>
+              <li className="hover:text-gray-600">
+                <a href="#about-us" onClick={() => setNavbar(false)}>
+                  About US
+                </a>
               </li>
             </ul>
           </div>

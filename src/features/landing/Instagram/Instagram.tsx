@@ -1,21 +1,11 @@
 import { useEffect } from "react";
 
-import { useMedia } from "utils/use-media";
-import { MEDIA_QUERY } from "constants/media-queries";
 import { Post } from "./Post";
 interface Props {}
 
-const sizes = ["desktop", "tablet", "mobile"] as const;
 const maxWidth = "330px";
 
 export const Instagram = ({}: Props) => {
-  const size = useMedia(
-    [MEDIA_QUERY.lgUp, MEDIA_QUERY.mdUp, MEDIA_QUERY.smUp],
-    [sizes[0], sizes[1], sizes[2]],
-    sizes[2]
-  );
-  console.log(size);
-
   useEffect(() => {
     const script = document.createElement("script");
 
