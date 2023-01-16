@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { StrictMode } from "react";
 import { Header } from "features/landing/Header";
 import { Hero } from "features/landing/Hero";
 import { Menu } from "features/landing/Menu";
 import { Instagram } from "features/landing/Instagram";
+import { Map } from "features/landing/Map";
 
 const Home: NextPage = () => {
   return (
@@ -16,10 +18,13 @@ const Home: NextPage = () => {
           content="Easy Meal | Food Boxes | Delivery | Tbilisi"
         />
       </Head>
-      <Header />
-      <Hero />
-      <Menu />
-      <Instagram />
+      <StrictMode>
+        <Header />
+        <Hero />
+        <Menu />
+        <Instagram />
+      </StrictMode>
+      <Map />
     </>
   );
 };
