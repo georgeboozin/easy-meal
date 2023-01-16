@@ -1,3 +1,3 @@
-import MultiLinkPage from "./multi-link";
+import LandingPage from "./landing";
 
-export default MultiLinkPage;
+export default LandingPage;
