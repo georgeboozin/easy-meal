@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import s from "./Menu.module.css";
 
 interface Props {}
@@ -5,9 +7,19 @@ interface Props {}
 export const Menu = ({}: Props) => {
   return (
     <>
-      <p id="menu" className="text-5xl pt-8 px-4 lg:px-8">
-        Menu
-      </p>
+      <div className="flex items-center justify-between pt-8 px-4 lg:px-8">
+        <p id="menu" className="text-5xl">
+          Menu
+        </p>
+        <div>
+          <Link href="/order">
+            <a className="w-full flex items-center justify-center px-4 py-2 text-wewak font-medium rounded-md text-gray-900 border border-black  bg-white hover:shadow-lg">
+              Make Order
+            </a>
+          </Link>
+        </div>
+      </div>
+
       <div className="flex font-lato overflow-auto py-8 px-4 lg:px-8">
         <div className="cluster">
           <div className="flex mb-8">
