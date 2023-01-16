@@ -71,12 +71,12 @@ export const Header = ({}: Props) => {
               </li>
               <li className="hover:text-gray-600">
                 <a href="#instagram" onClick={() => setNavbar(false)}>
-                  Contact US
+                  About US
                 </a>
               </li>
               <li className="hover:text-gray-600">
                 <a href="#about-us" onClick={() => setNavbar(false)}>
-                  About US
+                  Contact US
                 </a>
               </li>
             </ul>

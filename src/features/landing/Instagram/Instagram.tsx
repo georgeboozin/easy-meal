@@ -25,9 +25,10 @@ export const Instagram = ({}: Props) => {
 
   return (
     <>
-      <p className="text-5xl pt-8 px-4 lg:px-8">Instagram</p>
+      <p id="instagram" className="text-5xl pt-8 px-4 lg:px-8">
+        Instagram
+      </p>
       <div
-        id="instagram"
         className="flex flex-row justify-between items-center lg:px-8 my-8 px-4"
         style={{
           overflow: "auto",
