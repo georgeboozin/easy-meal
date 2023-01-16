@@ -1,5 +1,4 @@
 import { useState } from "react";
-import styles from "./Header.module.css";
 import { PrimaryWithout as Logo } from "components/Logos/PrimaryWithout";
 
 interface Props {}
