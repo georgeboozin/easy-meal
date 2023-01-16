@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { Post } from "./Post";
 interface Props {}
@@ -6,14 +6,18 @@ interface Props {}
 const maxWidth = "330px";
 
 export const Instagram = ({}: Props) => {
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     const script = document.createElement("script");
 
     script.src = "https://platform.instagram.com/en_US/embeds.js";
     script.async = true;
+    script.onload = () => {
+      // TODO: fix workaround - instagram layout shifting
+      setTimeout(() => setLoading(false), 1000);
+    };
 
     document.body.appendChild(script);
-
     return () => {
       document.body.removeChild(script);
     };
@@ -27,6 +31,7 @@ export const Instagram = ({}: Props) => {
         className="flex flex-row justify-between items-center lg:px-8 my-8 px-4"
         style={{
           overflow: "auto",
+          display: loading ? "none" : "flex",
         }}
       >
         <div
