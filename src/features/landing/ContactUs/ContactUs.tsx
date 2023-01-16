@@ -7,7 +7,7 @@ interface Props {}
 export const ContactUs = ({}: Props) => {
   return (
     <>
-      <p id="instagram" className="text-5xl pt-8 px-4 lg:px-8">
+      <p id="contact-us" className="text-5xl pt-8 px-4 lg:px-8">
         Contact Us
       </p>
       <div className="lg:px-8 my-8 px-4">

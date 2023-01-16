@@ -74,7 +74,7 @@ export const Header = ({}: Props) => {
                 </a>
               </li>
               <li className="hover:text-gray-600">
-                <a href="#about-us" onClick={() => setNavbar(false)}>
+                <a href="#contact-us" onClick={() => setNavbar(false)}>
                   Contact US
                 </a>
               </li>
