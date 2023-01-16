@@ -14,7 +14,7 @@ export const Hero = ({}: Props) => {
         </div>
       </div>
       <div className={`${s.photo}`}>
-        <img src="/main-dish.png" loading="lazy" alt="ladning" />
+        <img src="/main-dish.webp" loading="lazy" alt="ladning" />
       </div>
     </div>
   );
