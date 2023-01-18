@@ -6,7 +6,7 @@ interface Props {}
 
 export const Menu = ({}: Props) => {
   return (
-    <>
+    <div className="mx-auto lg:max-w-7xl">
       <div className="flex items-center justify-between pt-8 px-4 lg:px-8">
         <p id="menu" className="text-5xl">
           Menu
@@ -118,6 +118,6 @@ export const Menu = ({}: Props) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

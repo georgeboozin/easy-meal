@@ -24,7 +24,7 @@ export const Instagram = ({}: Props) => {
   }, []);
 
   return (
-    <>
+    <div className="mx-auto lg:max-w-7xl">
       <p id="instagram" className="text-5xl pt-8 px-4 lg:px-8">
         Instagram
       </p>
@@ -61,6 +61,6 @@ export const Instagram = ({}: Props) => {
           <Post src="https://www.instagram.com/p/CkL4uxVLUs9/?utm_source=ig_embed&amp;utm_campaign=loading" />
         </div>
       </div>
-    </>
+    </div>
   );
 };

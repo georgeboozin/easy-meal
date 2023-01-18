@@ -6,7 +6,7 @@ interface Props {}
 
 export const ContactUs = ({}: Props) => {
   return (
-    <>
+    <div className="mx-auto lg:max-w-7xl">
       <p id="contact-us" className="text-5xl pt-8 px-4 lg:px-8">
         Contact Us
       </p>
@@ -23,6 +23,6 @@ export const ContactUs = ({}: Props) => {
           ></iframe>
         </div>
       </div>
-    </>
+    </div>
   );
 };
