@@ -5,7 +5,7 @@ import { Hero } from "features/landing/Hero";
 import { Menu } from "features/landing/Menu";
 import { Instagram } from "features/landing/Instagram";
 import { ContactUs } from "features/landing/ContactUs";
-import { Footer } from "features/landing/Footer";
+import { Footer } from "components/Footer";
 
 const Home: NextPage = () => {
   return (
